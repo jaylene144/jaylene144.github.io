@@ -1868,7 +1868,7 @@ function takePhoto() {
     
  
             playSFX('click');
-            playMusic('education');
+            
             switchScreen('profile-screen', 'education-screen');
             startEducation();
         }
@@ -1980,7 +1980,7 @@ function startEducation() {
                     document.getElementById('education-content').appendChild(msg);
                 }, 500);
                 setTimeout(() => {
-                    playMusic('chat');
+                    
                    // This diverts the player to the new middle section
                  startTheChatroom();
                 }, 2500);
